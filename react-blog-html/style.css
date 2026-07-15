@@ -1,0 +1,94 @@
+h1 {
+    color: tomato;
+}
+
+h2{
+    color:gray;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+
+padding-top:1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right:2rem;
+}
+footer nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+    list-style: none;
+    
+    padding: 0;
+}
+footer{
+padding-top:1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right:2rem;
+}
+main{
+padding-top:1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right:2rem;
+}
+header nav a {
+
+
+    text-decoration: none;
+    color: lightgray;
+
+}
+footer nav a{
+    color:tomato;
+    text-decoration: none;
+}
+.continues{
+     text-align: right;
+}
+.continues a{
+   
+    font-weight: bold;
+    color: tomato;
+
+}
+html{
+    border-left: 5px solid lightgray;
+}
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img{
+  width:100%
+}
+article{
+    margin-bottom: 4rem ;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;;
+}
+.articlepara ::first-letter{
+    color:lightgray;
+    font-size:3rem;
+    float:left;
+    line-height: 1;
+    margin-right: 0.25rem;
+}
+footer p{
+    color: lightgray;
+}
+article h3{
+    font-size:2rem;
+}
