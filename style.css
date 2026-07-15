@@ -9,7 +9,16 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+header{
 
+padding:1rem;
+}
+footer{
+padding:1rem;
+}
+main{
+padding:1rem;
+}
 nav a {
 
     text-decoration: none;
