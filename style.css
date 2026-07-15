@@ -2,7 +2,9 @@ h1 {
     color: tomato;
 }
 
-
+h2{
+    color:gray;
+}
 header nav ul {
     display: flex;
     list-style: none;
