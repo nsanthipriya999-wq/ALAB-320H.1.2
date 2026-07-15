@@ -20,6 +20,7 @@ padding-top:1rem;
 padding-bottom: 1rem;
 padding-left: 2rem;
 padding-right:2rem;
+text-align: left;
 }
 footer nav ul {
     display: flex;
@@ -72,18 +73,21 @@ body{
     margin: 0 auto;
 }
 img{
-  width:100%
+  width:100%;
+  display:block;
+
 }
 article{
     margin-bottom: 4rem ;
     border-bottom: 1px solid lightgray;
-    padding-bottom: 2rem;;
+    padding-bottom: 2rem;
+    
 }
-.articlepara ::first-letter{
+.articlepara::first-letter{
     color:lightgray;
     font-size:3rem;
     float:left;
-    line-height: 1;
+    line-height: 1.5;
     margin-right: 0.25rem;
 }
 footer p{
